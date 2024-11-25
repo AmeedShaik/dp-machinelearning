@@ -1,4 +1,4 @@
-# 🎇 Machine Learning App
+# 🎇 Stock Price Prediction App
 
 This is Machine Learning App
 
