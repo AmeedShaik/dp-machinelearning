@@ -5,4 +5,5 @@ numpy
 tensorflow
 sklearn.preprocessing
 tensorflow.keras.models
+tensorflow.keras.layers
 matplotlib.pyplot
