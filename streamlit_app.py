@@ -5,3 +5,5 @@ import numpy as np
 
 # Title of the app
 st.title("Stock Price Prediction Application")
+# Sidebar for user input
+st.sidebar.header("Stock Prediction Settings")
