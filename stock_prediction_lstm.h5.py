@@ -16,7 +16,7 @@ df = yf.download(ticker, start="2015-01-01", end="2024-01-01")
 df = df[['Close']]  # We'll use the 'Close' price for prediction
 df.head()
 
-from sklearn.preprocessing import MinMaxScaler
+from sklearn import MinMaxScaler
 
 scaler = MinMaxScaler(feature_range=(0, 1))
 scaled_data = scaler.fit_transform(df)
