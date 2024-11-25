@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎆Machine Lewarning App')
+st.title('🎆Machine Learning App')
 
 st.info('This App builds Machine Lewarning Models')
