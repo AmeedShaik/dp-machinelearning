@@ -13,7 +13,7 @@ st.title("Stock Price Prediction App")
 st.sidebar.header("Stock Prediction Settings")
 
 # Select stock ticker
-stock_ticker = st.sidebar.text_input("Enter Stock Ticker (e.g., AAPL, TSLA, INFY.BO)", value="AAPL")
+stock_ticker = st.sidebar.text_input("Enter Stock Ticker (e.g., AAPL, TSLA, INFY.BO)", value="YESBANK.NS")
 
 # Select date range
 start_date = st.sidebar.date_input("Start Date", value=pd.to_datetime("2015-01-01"))
