@@ -12,3 +12,7 @@ stock_ticker = st.sidebar.text_input("Enter Stock Ticker (e.g., AAPL, TSLA, INFY
 # Select date range
 start_date = st.sidebar.date_input("Start Date", value=pd.to_datetime("2015-01-01"))
 end_date = st.sidebar.date_input("End Date", value=pd.to_datetime("2023-01-01"))
+# Load the model
+@st.cache(allow_output_mutation=True)
+def load_lstm_model():
+    return load_model("stock_prediction_lstm.h5")  # Make sure your trained model is in the same directory.
