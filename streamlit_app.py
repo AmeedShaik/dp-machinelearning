@@ -7,3 +7,5 @@ import numpy as np
 st.title("Stock Price Prediction Application")
 # Sidebar for user input
 st.sidebar.header("Stock Prediction Settings")
+# Select stock ticker
+stock_ticker = st.sidebar.text_input("Enter Stock Ticker (e.g., AAPL, TSLA, INFY.BO)", value="YESBANK.NS")
