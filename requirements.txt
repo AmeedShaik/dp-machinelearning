@@ -3,5 +3,5 @@ yfinance
 pandas
 numpy
 matplotlib
-sklearn
+scikit-learn
 tensorflow
