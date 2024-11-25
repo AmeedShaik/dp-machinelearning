@@ -1,4 +1,7 @@
 streamlit
-numpy
+yfinance
 pandas
-scikit-learn
+numpy
+sklearn.preprocessing
+tensorflow.keras.models
+matplotlib.pyplot
